@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+ul {
+  list-style: none;
+}
+.top {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 2px 100px #CCCCCC;
+}
+.top ul {
+  display: inline-block;
+}
+.top ul li {
+  float: left;
+  width: 120px;
+  line-height: 100px;
+}
+.top ul li .pic2 {
+  background-color: #A9A9A9;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.top ul li a {
+  width: 100%;
+  height: 97px;
+  line-height: 98px;
+  display: block;
+  text-align: center;
+}
+.top ul li a:hover {
+  color: red;
+  border-bottom: 3px solid red;
+}
+.top .last {
+  width: 300px;
+  line-height: 100px;
+}
+.top .pic1 {
+  width: 216px;
+  height: 31px;
+  float: left;
+  padding-top: 35px;
+  vertical-align: middle;
+}
+.pic3 img {
+  width: 100%;
+  height: 500px;
+}
+.pic3 .free {
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 20px;
+  display: block;
+  position: relative;
+  left: 65%;
+  top: -250px;
+}
+.weixin {
+  width: 60px;
+  position: fixed;
+  right: 80px;
+  top: 200px;
+  z-index: 999;
+}
+.weixin #pic3 {
+  position: absolute;
+  left: -125px;
+  top: 0px;
+  display: none;
+}
+.weixin img:first-child:hover + #pic3 {
+  display: block;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+  padding: 100px 0;
+}
+p span {
+  font-size: 35px;
+  color: red;
+}
+.yiduiyi {
+  width: 1000px;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.yiduiyi img {
+  margin: 0 60px;
+}
+.yiduiyi img:nth-child(2) {
+  transform: scale(1.5, 1.5);
+}
+.free1 {
+  color: #fff;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 20px;
+  display: block;
+  margin: 100px auto;
+}
+.studten {
+  text-align: center;
+}
+.studten .item {
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+}
+.studten .item span {
+  color: red;
+  font-size: 35px;
+}
+.studten .aa {
+  margin: 25px auto;
+  text-align: center;
+}
+.studten .aa a {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 15px;
+  /*float: left;*/
+  margin: 5px 20px;
+}
+.studten .aa a:hover {
+  background-color: red;
+  color: #fff;
+}
+.studten .aa1 {
+  margin-top: 25px;
+  margin: 25px auto;
+  text-align: center;
+}
+.studten .aa1 a {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+.studten .aa2 {
+  margin-top: 25px;
+  margin: 25px auto;
+  text-align: center;
+}
+.studten .aa2 a {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+.studten .aa2 a:hover {
+  background-color: red;
+  color: #fff;
+}
+.studten .aa3 {
+  margin-top: 25px;
+  margin: 25px auto;
+  text-align: center;
+}
+.studten .aa3 a {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+.studten .aa4 {
+  margin-top: 25px;
+  margin: 25px auto;
+  text-align: center;
+}
+.studten .aa4 a {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+.studten .one {
+  height: 350px;
+  width: 1300px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 200px;
+}
+.studten .one2 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 1300px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 200px;
+}
+.studten .one3 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 1300px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 200px;
+}
+.studten .two {
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .two2 {
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .two3 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .two4 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .two5 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .three {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .three2 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .three3 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .three4 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .three5 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .four {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .four2 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .four3 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten .four4 {
+  /*border: 1px solid red;*/
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+.studten ul li {
+  width: 170px;
+  height: 350px;
+  /*display: inline-block;*/
+  float: left;
+  margin: 0 5px;
+  /*border: 2px solid red;*/
+  background-color: darkorange;
+  overflow: hidden;
+}
+.studten ul li p {
+  font-size: 10px;
+  color: #fff;
+  text-align: left;
+  padding: 0 20px;
+}
+.studten ul li .P {
+  margin-top: 10px;
+}
+.studten h1 {
+  background-color: #fff;
+  color: #FE5454;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.studten #h1 {
+  padding-top: 100px;
+}
+.studten #h2 {
+  padding-top: 80px;
+}
+.studten #h3 {
+  padding-top: 60px;
+}
+.studten #h4 {
+  padding-top: 40px;
+}
+.studten #h5 {
+  padding-top: 0px;
+}
+.free2 {
+  color: #fff;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #666666;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+.footer input {
+  height: 30px;
+  margin-top: 15px;
+}
+.footer select {
+  width: 100px;
+  height: 30px;
+}
+.footer .free4 {
+  color: #fff;
+  width: 110px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 9px;
+  background-color: red;
+  font-size: 15px;
+  display: block;
+  position: relative;
+  top: -40px;
+  left: 75%;
+}

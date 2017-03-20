@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+	<title>优问项目</title>
+	<!--jquery插件及样式 start-->
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<link rel="stylesheet" href="css/teach.css"/>
+	<!--fullpage插件 start-->
+	<link rel="stylesheet" href="css/jquery.fullPage.css"/>
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<script src="css/l-by-l.min.js"></script>
+	<link rel="stylesheet" href="css/wow animate.css" />
+	<script src="js/wow.min.js"></script>
+	</head>
+	
+	<body>
+		<div id="cont1">
+			<!--第一屏-->
+			<div class="section" style="overflow: hidden;">
+			       <div class="top wow slideInLeft">
+			         	<div style="width: 1366px;margin: auto;">
+			        <img src="img/logo.png" class="pic1"/>
+					<ul>
+						<li><a href="index.html">首页</a></li>
+					<li><a href="teach.html">教学理念</a></li>
+					<li><a href="class.html">课程体系</a></li>
+					<li><a href="teacher.html">师资力量</a></li>
+					<li><a href="study.html">学习流程</a></li>
+					<li><a href="ketang.html">优问课堂</a></li>
+					<li><a href="onetoone.html">在线一对一</a></li>
+						<li class="last"><img src="img/phone.png" class="pic2"/>电话:400-777-5029</li>
+					</ul>
+				</div>
+	           </div>
+	                 
+	                 <div class="pic3 jq22-content">
+	                	 <h1 class="h1"></h1>
+	                     <h1 class="h2"></h1>
+	                     <a href="#" class="free wow swing">免费预约</a>
+	                 </div>  
+	                 
+	        </div>
+	    <!--模态框-->
+	    <!--<div class="model">
+	    	<div class="left">
+	    		<p>超小组   分层次   强互动</p>
+                <p>全流程强化中小学生学习动力</p>
+	    	    <img src="img/mtk_boy.png"/>
+	    	</div>
+	    	 <div class="right">
+	    	 	<input type="text" placeholder="姓名" /><br/>
+	    	 	<input type="text" placeholder="手机号"/><br/>
+	    	 	<select name="school" id="select1">
+	    	 		<option>小学</option>
+	    	 		<option>初中</option>
+	    	 		<option>高中</option>
+	    	 	</select>
+	    	 	<select name="class">
+	    	 		<option>一年级</option>
+	    	 		<option>二年级</option>
+	    	 		<option>三年级</option>
+	    	 		<option>四年级</option>
+	    	 	</select>
+	    	 	<select name="object">
+	    	 		<option>语文</option>
+	    	 		<option>数学</option>
+	    	 		<option>英语</option>
+	    	 	</select>
+	    	 	<a href="">免费预约</a>
+	    	 	<i>X</i>
+	    	 </div>
+	    	
+	    </div>    -->
+	    <!--第二屏-->
+		<div class="section pic4">
+			    <h1 class="wow swing">影响学习力三要素</h1>
+	        	<img src="img/teachidea/cont1bg.png"/>
+	        	
+	        </div>   
+	    <!--第三屏-->
+		<div class="section pic5">
+			<h1 class="wow bounce">激发学习动力</h1>
+			<img src="img/teachidea/cont2bg.png"/>
+		</div>
+		 <!--第四屏-->
+		<div class="section pic6">
+			<h1 class="wow bounceInLeft">提高学习能力</h1>
+			<img src="img/teachidea/cont3bg.png"/>
+		</div>
+		<!--第五屏-->
+		<div class="section pic7">
+			<h1 class="wow bounce">强化学习毅力</h1>
+			<img src="img/teachidea/cont4bg.png"/>
+			<!--底部-->
+		   <div class="footer wow swing">
+			   	<input type="text" placeholder="姓名" />
+			   	<input type="text" placeholder="手机号码" />
+		   		<select name="xiaoxue">
+		   			<option value="">小学</option>
+		   			<option value="">初中</option>
+		   			<option value="">高中</option>
+		   			<option value="">大学</option>
+		   		</select>
+		   		<select name="yinianji">
+		   			<option value="">一年级</option>
+		   			<option value="">二年级</option>
+		   			<option value="">三年级</option>
+		   			<option value="">四年级</option>
+		   		</select>
+		   		<select name="object">
+		   			<option value="">语文</option>
+		   			<option value="">数学</option>
+		   			<option value="">英语</option>
+		   		</select>
+		     	<a href="#" class="free4">0元免费试听</a>
+		   </div>
+		</div>
+		
+	</div>	
+		
+          <!--微信二维码-->
+          <div class="weixin">
+			<img src="img/wechatcode.png" alt="" />
+			<img src="img/codepic.png" id="pic3"/>
+			<img src="img/lineserver.png"/>
+			<a href=""><img src="img/gotop.png" id="go"/></a>
+			<a href=""><img src="img/backtop.png" id="back"/></a>
+	  </div>
+	</body>
+	<script type="text/javascript">
+$(function(){
+	$("#cont1").fullpage({
+//	navigation:true,
+     verticalCentered:false,
+     css3:true,
+     paddingTop:70,
+     anchors: ['page1', 'page2', 'page3'],
+     scrollBar: true,
+     afterRender: function(){
+         wow = new WOW({
+             animateClass: 'animated',
+          });
+         wow.init();
+     },
+		
+	});
+		$("body").css("overflow","hidden");
+
+		$("#go").css("display","none");
+			$("#back").mouseover(function(){
+				$("#go").css("display","block");
+				$("#back").css("display","none");
+			})
+			$("#go").mouseout(function(){
+				$("#go").css("display","none");
+				$("#back").css("display","block");
+			})
+  
+
+})	   
+//         逐字输入
+	    $(".h1").lbyl({
+	        content: "激发学习动力  提高学习能力  强化学习毅力",
+	        speed: 100,
+	        type: 'fade',
+	        finished: function(){ 
+	        	$('.h2').lbyl({
+	        		content:"一对一定制专属你的学习方案",
+	        		speed: 150,
+	        		type: 'fade',
+	        		fadeSpeed: 500
+	        	})
+	        } // Finished Callback
+
+	});
+	</script>
+
+</html>

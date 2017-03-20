@@ -1,0 +1,315 @@
+*{margin: 0;padding: 0;}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+ul{list-style: none;}
+//------------------第一屏
+    .top{
+     width:100%;
+    height: 100px;
+    background-color:#fff;
+    text-align: center;
+    box-shadow:inset 0px 0px 50px #D3D3D3;
+        ul{
+          display: inline-block;
+            li{
+                float: left;
+                width: 120px;
+                line-height:100px;
+              .pic2{
+                background-color: #A9A9A9;
+                margin-left: 15px;
+                vertical-align: middle;
+                }
+              a{
+                width: 100%;
+                height:97px;
+                line-height:98px;
+                display: block;
+                text-align: center;
+                &:hover{
+                color: red;
+                border-bottom: 3px solid red;
+                } 
+              } 
+            } 
+         }
+         .last{
+                width: 300px;
+                line-height:100px;
+                }
+         .pic1{
+                width:216px;
+                height:31px;
+                float: left;
+                margin-top: 35px;      
+                
+            }
+} 
+    .pic3{
+        img{
+            width:100%;
+            margin-top: 100px;
+            margin: auto;
+        }
+        .free1{
+                color:#fff;
+                width:150px;
+                height:50px;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 10px;
+                background-color:red;
+                font-size:20px;
+                display: block;
+                position: relative;left:55%;top:-150px;
+               }   
+    }       
+            
+  //  -----------------微信二维码
+ .weixin{
+      width:60px;
+      position: fixed;right:80px;
+      top: 200px;
+      z-index: 999;
+      #pic3{
+         position: absolute;
+        left: -125px;
+        top:0px;
+        display: none;
+      }
+      img:first-child:hover+#pic3{
+        display: block;
+      }
+ 
+    }
+//第二屏
+p{
+    font-size: 30px;
+    text-align: center;
+    span{
+        font-size: 35px;
+        color: red;
+    }
+}
+p:first-child{
+    padding-top:100px;
+}
+p:nth-child(2){
+     color: #A9A9A9;
+     font-size: 25px;
+     margin:50px;
+}
+.container{
+    width: 1000px;
+    height:400px;
+   margin: auto;
+    i{
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        clear: both;
+        clear: all;
+        float: none;
+        font-style: normal;
+    }
+    .pc1{
+        width: 200px;
+        height:231px;
+        float: left;
+        margin-right: 200px;
+        background-image: url(../img/teach/teach_change1.png);
+         background-repeat:no-repeat;
+         padding-top:280px;
+    }
+    .pc1:hover{
+        background-image: url(../img/teach/teach_change11.png);
+    }
+    .pc2{
+        width: 200px;
+       height:231px;
+        float: left;
+        margin-right: 200px;
+        background-image: url(../img/teach/teach_change2.png);
+         background-repeat:no-repeat;
+         padding-top: 280px;
+    }
+     .pc2:hover{
+        background-image: url(../img/teach/teach_change22.png);   
+    }
+    .pc3{
+        width: 200px;
+        height:231px;
+        float: left;
+        background-image: url(../img/teach/teach_change3.png);
+        background-repeat:no-repeat;
+        padding-top: 280px;
+    }
+     .pc3:hover{
+        background-image: url(../img/teach/teach_change33.png);    
+    }
+}
+     .free2{
+                color:#fff;
+                width: 130px;
+                height:50px;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 10px;
+                background-color:red;
+                font-size:20px;
+                display: block;
+                margin:auto;
+       }
+   
+//--------------------第三屏
+/*-----------------第三屏----------------*/
+    
+    .container2{
+                text-align: center;
+                p:first-child{
+                    text-align: center; 
+                    font-size:30px;
+                    margin-bottom:60px;
+                    p:first-child span{
+                        font-size:35px;
+                        color: red;
+                        }
+                    }
+                p:nth-child(2){
+                    background-image: url(../img/tixing1.png);
+                    background-repeat:no-repeat;
+                    width:1100px;
+                    height:60px;
+                    line-height:60px;
+                    margin:auto;
+                    font-size:30px;
+                    text-align: center;
+                    color: #fff;
+                    background-size:100%;
+                    margin-top: 10px;
+                    transition: all 1s;
+                }
+               p:nth-child(3){
+                    background-image: url(../img/tixing2.png);
+                    background-repeat:no-repeat;
+                    width:1000px;
+                    height:60px;
+                    line-height:60px;
+                    margin:auto;
+                    font-size:30px;
+                    text-align: center;
+                    color: #fff;
+                    background-size:100%;
+                    margin-top: 10px;
+                    transition: all 1s;
+                }
+             
+                p:nth-child(4){
+                    background-image: url(../img/tixing3.png);
+                    background-repeat:no-repeat;
+                    width:900px;
+                    height:60px;
+                    line-height:60px;
+                    margin:auto;
+                    font-size:30px;
+                    text-align: center;
+                    color: #fff;
+                    background-size:100%;
+                    margin-top: 10px;
+                    transition: all 1s;
+                }
+             
+                p:nth-child(5){
+                    background-image: url(../img/tixing4.png);
+                    background-repeat:no-repeat;
+                    width:800px;
+                    height:60px;
+                    line-height:60px;
+                    margin:auto;
+                    font-size:30px;
+                    text-align: center;
+                    color: #fff;
+                    background-size:100%;
+                    margin-top: 10px;
+                    transition: all 1s;
+                }
+               
+                p:nth-child(6){
+                    background-image: url(../img/tixing5.png);
+                    background-repeat:no-repeat;
+                    width:700px;
+                    height:60px;
+                    line-height:60px;
+                    margin:auto;
+                    font-size:30px;
+                    text-align: center;
+                    color: #fff;
+                    background-size:100%;
+                    margin-top: 10px;
+                    transition: all 1s;
+                }
+               
+                p:nth-child(7){
+                    background-image: url(../img/tixing6.png);
+                    background-repeat:no-repeat;
+                    width:600px;
+                    height:60px;
+                    line-height:60px;
+                    margin:auto;
+                    font-size:30px;
+                    text-align: center;
+                    color: #fff;
+                    background-size:100%;
+                    margin-top: 10px;           
+                    transition: all 1s; 
+                }
+            }
+  
+     .free3{
+                color:#fff;
+                width: 130px;
+                height:50px;
+                line-height:50px;
+                text-align: center;
+                border-radius: 10px;
+                background-color:red;
+                font-size:20px;
+                display: block;
+                margin: auto; margin-top:50px;
+               }         
+            
+               
+            
+        
+
+//---------------------底部
+ .footer{        
+         width: 100%;
+         height:60px;
+         background-color:#666666;
+         text-align: center;
+         position:absolute;bottom: 0;
+         z-index: 999;
+                input{         
+                height: 30px;
+                margin-top: 15px;
+              }
+                select{          
+                width: 100px;
+                height: 30px; 
+              }
+               .free4{
+                color:#fff;
+                width: 110px;
+                height:40px;
+                line-height: 40px;
+                text-align: center;
+                border-radius: 9px;
+                background-color:red;
+                font-size:15px;
+                display: block;
+                position: relative;top:-40px;left:75%;
+              } 
+    }

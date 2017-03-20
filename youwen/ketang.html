@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+	<title>优问项目</title>
+	<!--jquery插件及样式 start-->
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<link rel="stylesheet" href="css/ketang.css"/>
+	<!--fullpage插件 start-->
+	<link rel="stylesheet" href="css/jquery.fullPage.css"/>
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<link rel="stylesheet" href="css/wow animate.css" />
+	<script src="js/wow.min.js"></script>
+   
+	</head>
+	
+	<body>
+		<div id="cont1">
+			<!--第一屏-->
+			<div class="section">
+			      <div class="top wow bounceOut">
+			         <div style="width: 1366px;margin: auto;">
+			        <img src="img/logo.png" class="pic1"/>
+					<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="teach.html">教学理念</a></li>
+					<li><a href="class.html">课程体系</a></li>
+					<li><a href="teacher.html">师资力量</a></li>
+					<li><a href="study.html">学习流程</a></li>
+					<li><a href="ketang.html">优问课堂</a></li>
+					<li><a href="onetoone.html">在线一对一</a></li>
+						<li class="last"><img src="img/phone.png" class="pic2"/>电话:400-777-5029</li>
+					</ul>
+					</div>
+	             </div>    
+	                <div class="pic">
+	                	<img src="img/class/abcdefg.png" class=" wow bounceInRight" style="margin-top: 50px;"/>
+	                </div>
+						                 <!--<div class="swiper-container">
+					        <div class="swiper-wrapper">
+					            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
+					            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
+					            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
+					            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
+					            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
+					            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
+					        </div>
+					
+					        <!-- Add Pagination -->
+					        <!--<div class="swiper-pagination"></div>-->
+					
+					        <!-- Add Arrows -->
+					        <!--<div class="swiper-button-prev"></div>-->
+					        <!--<div class="swiper-button-next"></div>-->-->
+					    <!--</div>-->
+	                <!--------------------->
+	                <ul id="ull">
+	                	<li class="p1 wow bounceIn" data-wow-delay = "0s">热门推荐</li>
+	                	<li class="p2 wow bounceIn" data-wow-delay = "0.3s">优问资讯</li>
+	                	<li class="p3 wow bounceIn" data-wow-delay = "0.6s">学生课堂</li>
+	                	<li class="p4 wow bounceIn" data-wow-delay = "0.9s">家庭课堂</li>
+	                </ul>
+	                   <ul id="ull2">
+	                   	<img src="img/class/news1.png"/>
+	                   	<p id="p1">怎样才能更好的教育孩子</p>
+	                	<p>时代光华教师大概是觉得就是的故事就是大哥介绍给大家 给大</p>
+	                	<p>家说过僵尸国度就是大哥教师大概就是打个就是大哥就是 大哥</p>
+	                	<p>收到收到收到</p>
+	                   </ul>             	
+	       </div>
+	</div>	
+		<!--底部-->
+		<div class="footer">
+		   	<input type="text" placeholder="姓名" />
+		   	<input type="text" placeholder="手机号码" />
+		   		<select name="xiaoxue">
+		   			<option value="">小学</option>
+		   			<option value="">初中</option>
+		   			<option value="">高中</option>
+		   			<option value="">大学</option>
+		   		</select>
+		   		<select name="yinianji">
+		   			<option value="">一年级</option>
+		   			<option value="">二年级</option>
+		   			<option value="">三年级</option>
+		   			<option value="">四年级</option>
+		   		</select>
+		   		<select name="object">
+		   			<option value="">语文</option>
+		   			<option value="">数学</option>
+		   			<option value="">英语</option>
+		   		</select>
+		     	<a href="#" class="free4">0元免费试听</a>
+		   </div>
+          <!--微信二维码-->
+          <div class="weixin">
+			<img src="img/wechatcode.png" alt="" />
+			<img src="img/codepic.png" id="pic3"/>
+			<img src="img/lineserver.png"/>
+			<a href=""><img src="img/gotop.png" id="go"/></a>
+			<a href=""><img src="img/backtop.png" id="back"/></a>
+	  </div>
+	</body>
+	<script type="text/javascript">
+$(function(){
+	$("#cont1").fullpage({
+//		navigation:true,
+//   verticalCentered:true,
+     css3:true,
+     paddingTop:70,
+     anchors: ['page1', 'page2', 'page3'],
+//   scrollBar: true,
+
+		verticalCentered:false,
+		 afterRender: function(){
+         wow = new WOW({
+             animateClass: 'animated',
+          });
+         wow.init();
+     },
+
+	});
+		
+		$("#go").css("display","none");
+			$("#back").mouseover(function(){
+				$("#go").css("display","block");
+				$("#back").css("display","none");
+			})
+			$("#go").mouseout(function(){
+				$("#go").css("display","none");
+				$("#back").css("display","block");
+			})	
+			
+   
+})
+</script>
+</html>

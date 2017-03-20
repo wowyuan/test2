@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.top {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 2px 100px #CCCCCC;
+}
+.top ul {
+  list-style: none;
+  display: inline-block;
+}
+.top ul li {
+  float: left;
+  width: 120px;
+  line-height: 100px;
+}
+.top ul li .pic2 {
+  background-color: #A9A9A9;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.top ul li a {
+  width: 100%;
+  height: 97px;
+  line-height: 98px;
+  display: block;
+  text-align: center;
+}
+.top ul li a:hover {
+  color: red;
+  border-bottom: 3px solid red;
+}
+.top .last {
+  width: 300px;
+  line-height: 100px;
+}
+.top .pic1 {
+  width: 216px;
+  height: 31px;
+  margin-bottom: 35px;
+}
+.pic3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/flowchart/flowchartbg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -999;
+}
+.pic3 h1 {
+  font-size: 35px;
+  text-align: center;
+  color: red;
+}
+.pic3 h1:first-child {
+  color: black;
+  padding-top: 200px;
+  padding-bottom: 60px;
+}
+.pic3 .free {
+  color: #000;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 350px;
+}
+.pic4 {
+  width: 100%;
+  height: 100%;
+  background-color: #EFEFEF;
+}
+.pic4 img {
+  margin: auto;
+  display: block;
+}
+.pic4 h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 100px;
+}
+.pic5 {
+  background-color: #F0FFFF;
+}
+.pic5 img {
+  margin: auto;
+  display: block;
+}
+.pic5 h1 {
+  font-size: 30px;
+  color: cornflowerblue;
+  text-align: center;
+  padding: 100px;
+}
+.pic6 {
+  background-color: #fff;
+}
+.pic6 img {
+  margin: auto;
+  display: block;
+}
+.pic6 h1 {
+  font-size: 30px;
+  color: limegreen;
+  text-align: center;
+  padding: 100px;
+}
+.pic7 {
+  background-color: #fffcf7;
+}
+.pic7 img {
+  margin: auto;
+  display: block;
+}
+.pic7 h1 {
+  font-size: 30px;
+  color: #ffaa00;
+  text-align: center;
+  padding: 100px;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #666666;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+.footer input {
+  height: 30px;
+  margin-top: 15px;
+}
+.footer select {
+  width: 100px;
+  height: 30px;
+}
+.footer .free4 {
+  color: #fff;
+  width: 110px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 9px;
+  background-color: red;
+  font-size: 15px;
+  display: block;
+  position: relative;
+  top: -40px;
+  left: 75%;
+}
+.weixin {
+  width: 60px;
+  position: fixed;
+  right: 80px;
+  top: 200px;
+  z-index: 999;
+}
+.weixin #pic3 {
+  position: absolute;
+  left: -125px;
+  top: 0px;
+  display: none;
+}
+.weixin img:first-child:hover + #pic3 {
+  display: block;
+}

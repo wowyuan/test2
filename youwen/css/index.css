@@ -1,0 +1,703 @@
+*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;
+    color: #000000;
+}
+ul{list-style: none;}
+/*-----------右侧二维码--------------*/
+     .weixin{
+      width:60px;
+      position: fixed;right:80px;
+      top: 200px;
+      z-index: 999;
+      }
+      .weixin #pic3{
+      	 position: absolute;
+      	left: -125px;
+      	top:0px;
+      	display: none;
+      }
+      .weixin img:first-child:hover+#pic3{
+      	display: block;
+      }
+      
+     
+/*-----导航开始-----------------------------------*/
+     #cont1{ position: relative;
+     margin: 0 auto;}
+     .section{overflow: hidden;}
+     .top{
+     	      width:100%;
+     	      height: 100px;
+			   background-color:#FFF;
+			   box-shadow: 0 2px 5px #D3D3D3;
+			   margin:0 auto;
+			   text-align: center;
+			  
+			  }
+     .top ul{  
+     	
+			  	display: inline-block;
+			  	}
+     .top  ul li{
+			  	float: left;
+			  	width: 120px;
+			  	line-height:100px;
+			  	}
+     .top ul li a{
+			  	width: 100%;
+			  	height:97px;
+			  	line-height:98px;
+			  	display: block;
+			  	text-align: center;
+			  	}
+     .top .last{
+			  	width:300px;
+			  	line-height:100px;
+			  	}
+     .top .pic1{
+			  	width:216px;
+			  	height:31px;
+			  	margin-bottom: 35px;
+			  	}
+     li .pic2{
+			   	background-color: #efefef;
+			   	margin-left: 15px;
+			   	vertical-align: middle;
+			   	}
+     li a:hover{
+			   	color: red;
+			   	border-bottom: 3px solid red;
+		   	}
+      
+/*-----------------第二屏----------------*/
+     .p1{
+			   	font-size: 30px;
+			    text-align: center;
+			    margin-top:70px;
+			   }
+     .p1 span{
+     	        font-size: 35px;
+     	        color: red;}
+     .p2{
+			   	font-size: 20px;
+			    color: #A9A9A9;
+			    text-align: center;
+			    padding-top:20px;
+			   }
+     .cont{     padding-top: 50px;
+			   	margin: auto;
+			   	text-align: center;
+			   	}
+     .model1{
+			   	width:430px;
+			   	height:450px;
+			   	display: inline-block;
+			   }
+     .model2{
+			   	width:430px;
+			   	height:450px;
+			   	display: inline-block;
+			   }
+     .model3{
+			   	width:430px;
+			   	height:450px;
+			   	display: inline-block;
+			   }
+     .pc1{
+			   	margin:0 auto;
+			   	width:260px;
+			   	height:304px;
+			    background-image: url(../img/headico.png);
+			   }
+     .pc2{
+			   	margin:0 auto;
+			   	width:260px;
+			   	height:304px;
+			    background-image:url(../img/teach.png);
+			   }
+     .pc3{
+			   	margin:0 auto;
+			   	width:260px;
+			   	height:304px;
+			    background-image:url(../img/server.png);
+			   }
+     .cont h1{
+			   	margin-top:10px;
+			   }
+     .cont p{
+			   	margin-top:10px;
+			   	font-size:20px;
+			   	color: #A9A9A9;
+			   }
+     .free{
+			   	color:#fff;
+			   	width: 130px;
+			   	height:50px;
+			   	line-height: 50px;
+			   	text-align: center;
+			   	border-radius: 10px;
+			   	background-color:red;
+			    font-size:20px;
+			    display: block;
+			    margin: 0 auto;
+			   }
+	 .cont .pc1:hover{background-image: url(../img/headico2.png);}
+	 .cont .pc2:hover{background-image:url(../img/teach2.png);}
+	 .cont .pc3:hover{background-image:url(../img/server2.png);}
+   /*-----------------第三屏----------------*/
+     .studten{
+     	        padding-top: 100px;
+		        text-align: center;
+		    }
+     .studten .item{
+     	        color: #000000;
+		    	text-align: center;
+		    	font-size:30px;
+		    }
+     .studten .item span{
+		    	color: red;
+		    	font-size: 35px;
+		    }
+     .studten .aa{
+		    	margin:25px auto;
+		    	text-align: center;
+		    }
+     .studten .aa a{
+		    	width: 170px;
+		    	height: 50px;
+		    	line-height: 50px;
+		    	color:red;
+		    	font-size: 25px;
+		    	text-align: center;
+		    	display:inline-block;
+		    	border: 1px solid red;
+		    	border-radius: 15px;
+		    	/*float: left;*/
+		    	margin:5px 20px;	
+		    }
+     .studten .aa a:hover{
+		     	background-color: red;
+		     	color: #fff;
+		     }
+		    
+		     /*----------1------------*/
+     .studten .aa1{
+		    	margin-top:25px;
+		    	margin:25px auto;
+		    	text-align: center;
+		    }
+     .studten .aa1 a{
+		    	width: 120px;
+		    	height: 40px;
+		    	line-height: 40px;
+		    	color:red;
+		    	font-size: 25px;
+		    	text-align: center;
+		    	display:inline-block;
+		    	border: 1px solid red;
+		    	border-radius: 10px;
+		    	margin:10px 20px;	
+		    }
+		    /*------------2---------------*/
+		   .studten .aa2{
+		    	margin-top:25px;
+		    	margin:25px auto;
+		    	text-align: center;
+		    }
+     .studten .aa2 a{
+		    	width: 120px;
+		    	height: 40px;
+		    	line-height: 40px;
+		    	color:red;
+		    	font-size: 25px;
+		    	text-align: center;
+		    	display:inline-block;
+		    	border: 1px solid red;
+		    	border-radius: 10px;
+		    	margin:10px 20px;	
+		    }
+     .studten .aa2 a:hover{
+		      	background-color: red;
+		     	color: #fff;
+		     }
+		     /*----------------3--------------*/
+		    .studten .aa3{
+		    	margin-top:25px;
+		    	margin:25px auto;
+		    	text-align: center;
+		    }
+     .studten .aa3 a{
+		    	width: 120px;
+		    	height: 40px;
+		    	line-height: 40px;
+		    	color:red;
+		    	font-size: 25px;
+		    	text-align: center;
+		    	display:inline-block;
+		    	border: 1px solid red;
+		    	border-radius: 10px;
+		    	margin:10px 20px;	
+		    }
+		     .studten .aa4{
+		    	margin-top:25px;
+		    	margin:25px auto;
+		    	text-align: center;
+		    }
+     .studten .aa4 a{
+		    	width: 120px;
+		    	height: 40px;
+		    	line-height: 40px;
+		    	color:red;
+		    	font-size: 25px;
+		    	text-align: center;
+		    	display:inline-block;
+		    	border: 1px solid red;
+		    	border-radius: 10px;
+		    	margin:10px 20px;	
+		    }
+    /*----------一年级---------------*/
+   .studten .one{
+   	/*border: 1px solid red;*/
+   	height: 350px;
+   	width:1300px;
+   	text-align: center;
+    margin:0 auto;  
+    padding-left: 200px;	
+   }
+           
+			 .studten .one2{
+						   	/*border: 1px solid red;*/
+						   	height: 350px;
+						   	width:1300px;
+						   	text-align: center;
+						    margin:0 auto;  
+						    padding-left: 200px;	
+						   }
+			  .studten .one3{
+						   	/*border: 1px solid red;*/
+						   	height: 350px;
+						   	width:1300px;
+						   	text-align: center;
+						    margin:0 auto;  
+						    padding-left: 200px;	
+						   }		   
+						   
+          
+    .studten .two{
+   	/*border: 1px solid red;*/
+   	height: 350px;
+   	width:700px;
+   	text-align: center;
+    margin:0 auto; 
+    padding-left: 100px; 
+   }
+                    .studten .two2{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto; 
+							    padding-left: 100px; 
+							   }
+				     .studten .two3{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto; 
+							    padding-left: 100px; 
+							   }
+				  .studten .two4{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto; 
+							    padding-left: 100px; 
+							   }
+				  .studten .two5{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto; 
+							    padding-left: 100px; 
+							   }
+    .studten .three{
+   	/*border: 1px solid red;*/
+   	height: 350px;
+   	width:700px;
+   	text-align: center;
+    margin:0 auto;  
+    padding-left: 100px;	
+   } 
+                   .studten .three2{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto;  
+							    padding-left: 100px;	
+							   } 
+							 .studten .three3{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto;  
+							    padding-left: 100px;	
+							   }  
+							    .studten .three4{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto;  
+							    padding-left: 100px;	
+							   } 
+							    .studten .three5{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto;  
+							    padding-left: 100px;	
+							   }   
+    .studten .four{
+   	/*border: 1px solid red;*/
+   	height: 350px;
+   	width:700px;
+   	text-align: center;
+    margin:0 auto;  
+    padding-left: 100px;	
+   }
+                   .studten .four2{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto;  
+							    padding-left: 100px;	
+							   }
+					.studten .four3{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto;  
+							    padding-left: 100px;	
+							   }
+							   .studten .four4{
+							   	/*border: 1px solid red;*/
+							   	height: 350px;
+							   	width:700px;
+							   	text-align: center;
+							    margin:0 auto;  
+							    padding-left: 100px;	
+							   } 
+   
+    .studten ul li{
+		    	width:170px;
+		    	height:350px;
+		    	/*display: inline-block;*/
+		    	float: left;
+		    	margin: 0 5px;
+		    	/*border: 2px solid red;*/
+		    	background-color: darkorange;
+		    	overflow: hidden;
+		    }
+    .studten ul h1{
+		    	background-color: #fff;	
+		    	color: #FE5454;
+		    	padding-top: 30px;
+		    	padding-bottom: 20px;
+		    }
+		    #h1{
+		    	padding-top: 100px;
+		    }
+		     #h2{
+		    	padding-top:80px;
+		    }
+		     #h3{
+		    	padding-top: 60px;
+		    }
+		     #h4{
+		    	padding-top: 40px;
+		    }
+		     #h5{
+		    	padding-top: 0px;
+		    }
+		    
+	.studten ul  li p{
+	 	font-size: 10px;
+	 	color: #fff;
+	 	text-align: left;
+	 	padding: 0 20px;
+	 }  
+	li .P{
+	 	margin-top: 10px;
+	 }
+     .free1{
+			   	color:#fff;
+			   	width: 130px;
+			   	height:50px;
+			   	line-height: 50px;
+			   	text-align: center;
+			   	border-radius: 10px;
+			   	background-color:red;
+			    font-size:20px;
+			    display: block;
+			   margin: auto;
+			   margin-top: 20px;
+			   }
+/*第四屏--------------------*/
+     .container2{
+				width:1200px;
+				margin: auto;
+				text-align: center;
+			}
+	 .container2 p:first-child{
+	 	        text-align: center;	
+			 	font-size:30px;
+			 	padding-top: 100px;
+			 	margin-bottom:60px;
+			 	}
+	 .container2 p:first-child span{
+			 	font-size:35px;
+			 	color: red;
+			 	}
+	 .container2 p:nth-child(2){
+				background-image: url(../img/tixing1.png);
+				background-repeat:no-repeat;
+				width:900px;
+				height:45px;
+				line-height:45px;
+				margin:auto;
+				font-size:20px;
+				text-align: center;
+				color: #fff;
+				background-size:100%;
+				margin-top: 10px;
+				transition: all 1s;
+			}
+     .container2 p:nth-child(2):hover{
+				width:1100px;
+				font-size:30px;
+				height:60px;
+				line-height:60px;
+			}
+/*---1*/
+     .container2 p:nth-child(3){
+				background-image: url(../img/tixing2.png);
+				background-repeat:no-repeat;
+				width:800px;
+				height:45px;
+				line-height:45px;
+				margin:auto;
+				font-size:20px;
+				text-align: center;
+				color: #fff;
+				background-size:100%;
+				margin-top: 10px;
+				transition: all 1s;
+			}
+     .container2 p:nth-child(3):hover{
+				width:1000px;
+				font-size:30px;
+				height:60px;
+				line-height:60px;
+			}
+/*2*/
+     .container2 p:nth-child(4){
+				background-image: url(../img/tixing3.png);
+				background-repeat:no-repeat;
+				width:700px;
+				height:45px;
+				line-height:45px;
+				margin:auto;
+				font-size:20px;
+				text-align: center;
+				color: #fff;
+				background-size:100%;
+				margin-top: 10px;
+				transition: all 1s;
+			}
+     .container2 p:nth-child(4):hover{
+				width:900px;
+				font-size:30px;
+				height:60px;
+				line-height:60px;
+			}
+/*3*/
+     .container2 p:nth-child(5){
+				background-image: url(../img/tixing4.png);
+				background-repeat:no-repeat;
+				width:600px;
+				height:45px;
+				line-height:45px;
+				margin:auto;
+				font-size:20px;
+				text-align: center;
+				color: #fff;
+				background-size:100%;
+				margin-top: 10px;
+				transition: all 1s;
+			}
+     .container2 p:nth-child(5):hover{
+				width:800px;
+				font-size:30px;
+				height:60px;
+				line-height:60px;
+			}
+/*4*/
+     .container2 p:nth-child(6){
+				background-image: url(../img/tixing5.png);
+				background-repeat:no-repeat;
+				width:500px;
+				height:45px;
+				line-height:45px;
+				margin:auto;
+				font-size:20px;
+				text-align: center;
+				color: #fff;
+				background-size:100%;
+				margin-top: 10px;
+				transition: all 1s;
+			}
+     .container2 p:nth-child(6):hover{
+				width:700px;
+				font-size:30px;
+				height:60px;
+				line-height:60px;
+			}
+/*5*/
+     .container2 p:nth-child(7){
+				background-image: url(../img/tixing6.png);
+				background-repeat:no-repeat;
+				width:400px;
+				height:45px;
+				line-height:45px;
+				margin:auto;
+				font-size:20px;
+				text-align: center;
+				color: #fff;
+				background-size:100%;
+				margin-top: 10px;
+				margin-bottom: 200px;
+			    transition: all 1s; 
+			}
+     .container2 p:nth-child(7):hover{
+				width:600px;
+				font-size:30px;
+				height:60px;
+				line-height:60px;
+			}
+/*6*/
+     .free2{
+			   	color:#fff;
+			   	width: 130px;
+			   	height:50px;
+			   	line-height: 50px;
+			   	text-align: center;
+			   	border-radius: 10px;
+			   	background-color:red;
+			    font-size:20px;
+			    display: block;
+			    margin:0 auto;
+			   }
+   /*第五屏*/
+     .container3{
+			  	width:1400px;
+			  	height: 350px;
+			  	margin: auto;
+			  	/*border: 1px solid blue;*/
+			  	margin-bottom:100px;
+			  	text-align: center;
+                  }
+     .container3 img{
+  				width: 170px;height: 197px;
+  				}
+     .container3 img{
+   				margin:32px;
+   				}
+     .container3 img:first-child{
+   				transform: scale(1,1);
+                }
+     .container3 img:nth-child(2){
+			   	transform: scale(0.5,0.5);
+			   	margin-bottom: 100px;
+                }
+     .container3 img:nth-child(3){
+   				transform: scale(1.5,1.5);
+                }
+     .container3 img:nth-child(4){
+		   		transform: scale(0.7,0.7);
+		   		margin-bottom: 100px;
+               }
+     .container3 img:last-child{
+   				transform: scale(1,1);
+               }
+     .container3 img:first-child:hover{
+			   	transform: scale(1.2,1.2);
+			   	transition: all 0.5s;
+               }
+     .container3 img:nth-child(2):hover{
+			   	transform: scale(0.7,0.7);
+			   	transition: all 0.5s;
+               }
+     .container3 img:nth-child(3):hover{
+			   	transform: scale(1.7,1.7);
+			   	transition: all 0.5s;
+               }
+     .container3 img:nth-child(4):hover{
+			   	transform: scale(0.9,0.9);
+			   	transition: all 0.5s;
+                }
+     .container3 img:last-child:hover{
+			   	transform: scale(1.2,1.2);
+			   	transition: all 0.5s;
+                }
+     .free3{
+			   	color:#fff;
+			   	width: 130px;
+			   	height:50px;
+			   	line-height: 50px;
+			   	text-align: center;
+			   	border-radius: 10px;
+			   	background-color:red;
+			    font-size:20px;
+			    display: block;
+			    margin: auto;
+			    margin-bottom: 30px;
+   }
+         
+ 	   .footer{        
+         width: 100%;
+         height:60px;
+         background-color:#666666;
+         text-align: center;
+         position:absolute;
+         bottom: 0;}
+     .footer input{         
+  	            height: 30px;
+  	            margin-top: 15px;
+  	            }
+             select{          
+  	            width: 100px;
+  	            height: 30px; 
+  	            }
+     .footer .free4{
+			   	color:#fff;
+			   	width: 110px;
+			   	height:40px;
+			   	line-height: 40px;
+			   	text-align: center;
+			   	border-radius: 9px;
+			   	background-color:red;
+			    font-size:15px;
+			    display: block;
+			
+			    position: relative;top:-40px;left:75%;
+ }
+   
